@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RabbitMq.iml" filepath="$PROJECT_DIR$/RabbitMq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/confirm-rabbit-send/confirm-rabbit-send.iml" filepath="$PROJECT_DIR$/confirm-rabbit-send/confirm-rabbit-send.iml" />
       <module fileurl="file://$PROJECT_DIR$/inventory-center/inventory-center.iml" filepath="$PROJECT_DIR$/inventory-center/inventory-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-center/order-center.iml" filepath="$PROJECT_DIR$/order-center/order-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/pay-center/pay-center.iml" filepath="$PROJECT_DIR$/pay-center/pay-center.iml" />

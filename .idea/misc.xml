@@ -6,10 +6,11 @@
         <option value="$PROJECT_DIR$/order-center/pom.xml" />
         <option value="$PROJECT_DIR$/inventory-center/pom.xml" />
         <option value="$PROJECT_DIR$/pay-center/pom.xml" />
+        <option value="$PROJECT_DIR$/confirm-rabbit-send/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

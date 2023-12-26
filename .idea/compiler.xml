@@ -8,13 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pay-center" />
         <module name="order-center" />
+        <module name="confirm-rabbit-send" />
         <module name="inventory-center" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="inventory-center" target="1.5" />
-      <module name="order-center" target="1.5" />
-      <module name="pay-center" target="1.5" />
+      <module name="confirm-rabbit-send" target="1.8" />
+      <module name="inventory-center" target="1.8" />
+      <module name="order-center" target="1.8" />
+      <module name="pay-center" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
