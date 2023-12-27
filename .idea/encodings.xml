@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/confirm-rabbit-send/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/confirm-rabbit-send/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dead-rabbitmq-send/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dead-rabbitmq-send/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/delayed-rabbitmq-send/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/delayed-rabbitmq-send/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inventory-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inventory-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jz-consumer-rabbit-receive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jz-consumer-rabbit-receive/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jz-producer-rabbit-send/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jz-producer-rabbit-send/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay-center/src/main/java" charset="UTF-8" />

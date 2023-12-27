@@ -6,17 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dead-rabbitmq-send" />
         <module name="pay-center" />
         <module name="order-center" />
-        <module name="confirm-rabbit-send" />
+        <module name="delayed-rabbitmq-send" />
+        <module name="jz-producer-rabbie-send" />
         <module name="inventory-center" />
+        <module name="jz-consumer-rabbit-receive" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="confirm-rabbit-send" target="1.8" />
-      <module name="inventory-center" target="1.8" />
-      <module name="order-center" target="1.8" />
-      <module name="pay-center" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="dead-rabbitmq-send" target="1.8" />
+      <module name="delayed-rabbitmq-send" target="1.8" />
+      <module name="inventory-center" target="1.5" />
+      <module name="jz-consumer-rabbit-receive" target="1.5" />
+      <module name="jz-producer-rabbie-send" target="1.5" />
+      <module name="order-center" target="1.5" />
+      <module name="pay-center" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
   </component>
 </project>

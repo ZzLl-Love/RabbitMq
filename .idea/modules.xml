@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RabbitMq.iml" filepath="$PROJECT_DIR$/RabbitMq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/confirm-rabbit-send/confirm-rabbit-send.iml" filepath="$PROJECT_DIR$/confirm-rabbit-send/confirm-rabbit-send.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-rabbitmq-send/dead-rabbitmq-send.iml" filepath="$PROJECT_DIR$/dead-rabbitmq-send/dead-rabbitmq-send.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delayed-rabbitmq-send/delayed-rabbitmq-send.iml" filepath="$PROJECT_DIR$/delayed-rabbitmq-send/delayed-rabbitmq-send.iml" />
       <module fileurl="file://$PROJECT_DIR$/inventory-center/inventory-center.iml" filepath="$PROJECT_DIR$/inventory-center/inventory-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jz-consumer-rabbit-receive/jz-consumer-rabbit-receive.iml" filepath="$PROJECT_DIR$/jz-consumer-rabbit-receive/jz-consumer-rabbit-receive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jz-producer-rabbit-send/jz-producer-rabbie-send.iml" filepath="$PROJECT_DIR$/jz-producer-rabbit-send/jz-producer-rabbie-send.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-center/order-center.iml" filepath="$PROJECT_DIR$/order-center/order-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/pay-center/pay-center.iml" filepath="$PROJECT_DIR$/pay-center/pay-center.iml" />
     </modules>
