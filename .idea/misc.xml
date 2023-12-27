@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/inventory-center/pom.xml" />
         <option value="$PROJECT_DIR$/pay-center/pom.xml" />
         <option value="$PROJECT_DIR$/confirm-rabbit-send/pom.xml" />
+        <option value="$PROJECT_DIR$/jz-consumer-rabbit-receive/pom.xml" />
+        <option value="$PROJECT_DIR$/jz-producer-rabbit-send/pom.xml" />
+        <option value="$PROJECT_DIR$/dead-rabbitmq-send/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.rabbitmq:http-client:3.12.1">
     <CLASSES>
-      <root url="jar://C:/Zz/document/maven-repository/com/rabbitmq/http-client/3.12.1/http-client-3.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../tools/apache-maven-3.6.1/repository/com/rabbitmq/http-client/3.12.1/http-client-3.12.1.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/Zz/document/maven-repository/com/rabbitmq/http-client/3.12.1/http-client-3.12.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../tools/apache-maven-3.6.1/repository/com/rabbitmq/http-client/3.12.1/http-client-3.12.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/Zz/document/maven-repository/com/rabbitmq/http-client/3.12.1/http-client-3.12.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../tools/apache-maven-3.6.1/repository/com/rabbitmq/http-client/3.12.1/http-client-3.12.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
