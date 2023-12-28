@@ -11,7 +11,10 @@
         <option value="$PROJECT_DIR$/jz-producer-rabbit-send/pom.xml" />
         <option value="$PROJECT_DIR$/dead-rabbitmq-send/pom.xml" />
         <option value="$PROJECT_DIR$/delayed-rabbit-send/pom.xml" />
-        <option value="$PROJECT_DIR$/delayed-rabbitmq-send/pom.xml" />
+        <option value="$PROJECT_DIR$/plugs-delayed-rabbitmq-send/delayed-rabbitmq-send/pom.xml" />
+        <option value="$PROJECT_DIR$/plugs-delayed-rabbit-receive/delayed-rabbit-receive/pom.xml" />
+        <option value="$PROJECT_DIR$/plugs-delayed-rabbit-receive/plugs-delayed-rabbitmq-receive/pom.xml" />
+        <option value="$PROJECT_DIR$/plugs-delayed-rabbitmq-send/plugs-delayed-rabbitmq-send/pom.xml" />
       </list>
     </option>
   </component>

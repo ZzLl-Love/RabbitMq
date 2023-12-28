@@ -7,6 +7,7 @@ import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -19,7 +20,8 @@ import java.util.HashMap;
  */
 @Configuration
 @EnableRabbit
-public class RabbitMqConfig {
+
+public class RabbitMqConfig{
 
 
     //延时交换机
@@ -39,7 +41,6 @@ public class RabbitMqConfig {
 
     @Value("${spring.rabbitmq.password}")
     private String password;
-
 
     /**
      * 创建RabbitTemplate
@@ -65,6 +66,7 @@ public class RabbitMqConfig {
     public CachingConnectionFactory cachingConnectionFactory() {
         //创建缓存连接工厂
         CachingConnectionFactory factory = new CachingConnectionFactory();
+
         factory.setHost(host);
         factory.setPort(port);
         factory.setUsername(username);
@@ -106,4 +108,6 @@ public class RabbitMqConfig {
     public Binding plugsDelayedBinding(){
         return BindingBuilder.bind(plugsDelayedQueue()).to(plugsDelayedExchange()).with("ack").noargs();
     }
+
+
 }

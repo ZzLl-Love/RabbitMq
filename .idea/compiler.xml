@@ -7,22 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dead-rabbitmq-send" />
+        <module name="plugs-delayed-rabbitmq-send" />
+        <module name="plugs-delayed-rabbitmq-receive" />
         <module name="pay-center" />
+        <module name="jz-producer-rabbit-send" />
         <module name="order-center" />
-        <module name="delayed-rabbitmq-send" />
-        <module name="jz-producer-rabbie-send" />
         <module name="inventory-center" />
         <module name="jz-consumer-rabbit-receive" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="dead-rabbitmq-send" target="1.8" />
-      <module name="delayed-rabbitmq-send" target="1.8" />
       <module name="inventory-center" target="1.5" />
       <module name="jz-consumer-rabbit-receive" target="1.5" />
-      <module name="jz-producer-rabbie-send" target="1.5" />
+      <module name="jz-producer-rabbit-send" target="8" />
       <module name="order-center" target="1.5" />
       <module name="pay-center" target="1.5" />
+      <module name="plugs-delayed-rabbitmq-receive" target="1.8" />
+      <module name="plugs-delayed-rabbitmq-send" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.zyy</groupId>
-    <artifactId>delayed-rabbitmq-send</artifactId>
+    <artifactId>plugs-delayed-rabbitmq-send</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>delayed-rabbitmq-send</name>
-    <description>delayed-rabbitmq-send</description>
+    <name>plugs-delayed-rabbitmq-send</name>
+    <description>plugs-delayed-rabbitmq-send</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,6 +33,12 @@
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
     <dependencyManagement>

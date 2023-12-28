@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.zyy</groupId>
-    <artifactId>delayed-rabbitmq-send</artifactId>
+    <artifactId>plugs-delayed-rabbit-receive</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>delayed-rabbitmq-send</name>
-    <description>delayed-rabbitmq-send</description>
+    <name>plugs-delayed-rabbit-receive</name>
+    <description>plugs-delayed-rabbit-receive</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -64,7 +64,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>cn.zyy.DelayedRabbitmqSendApplication</mainClass>
+                    <mainClass>cn.zyy.DelayedRabbitReceiveApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

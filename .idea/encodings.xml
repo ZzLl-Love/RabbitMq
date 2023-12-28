@@ -3,8 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/dead-rabbitmq-send/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dead-rabbitmq-send/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/delayed-rabbitmq-send/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/delayed-rabbitmq-send/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inventory-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inventory-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jz-consumer-rabbit-receive/src/main/java" charset="UTF-8" />
@@ -15,5 +13,9 @@
     <file url="file://$PROJECT_DIR$/order-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugs-delayed-rabbit-receive/plugs-delayed-rabbitmq-receive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugs-delayed-rabbit-receive/plugs-delayed-rabbitmq-receive/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugs-delayed-rabbitmq-send/plugs-delayed-rabbitmq-send/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugs-delayed-rabbitmq-send/plugs-delayed-rabbitmq-send/src/main/resources" charset="UTF-8" />
   </component>
 </project>
